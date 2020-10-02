@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        
+    }
+    .section{
+        background: url("./video/bg1.jpeg") no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        text-align: center;
+        width: 100%;
+        display: table;
+        font-family: 'Anton';
+        
+    }
+    .wrap_block{
+        display:table-cell;
+        vertical-align: middle;
+        color: white;
+    }
+    h1{
+        font-size: 90px;
+        text-transform: uppercase;
+        font-family: 'Anton';
+        letter-spacing: 5px;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .btn{
+        width: 200px;
+        height: 100px;
+        border: 1px solid white;
+        color: white;
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 30px;
+        
+        
+    }
+    .btn:hover{
+        background: white;
+        color: black;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+       
+        color: white;
+        text-align: center;
+    }
+    footer a{
+
+        color: rgb(231, 231, 231);
+       
+    }
+    @media(max-width: 480px){
+        h1{
+            font-size: 38px;
+        }
+        .btn{
+        width: 100px;
+        height: 50px;
+        border: 1px solid white;
+        color: white;
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 25px;
+ 
+    }
+    }
+</style>
+<body>
+<div class="section">
+    <div class="wrap_block">
+        <h1>Tu as plus de <br> 18 ans?</h1>
+        <div style="margin: 0 auto;">
+            <a href="./land/index2.php?_token={token}" style="margin: 20px;">
+                <div class="btn">
+                    
+                    Oui
+                </div>
+            </a>
+            <a href="./land/index2.php?_token={token}" style="margin: 20px;">
+                <div class="btn">
+                    Non
+                </div>
+            </a>
+        </div>
+        <p style="font-family: 'Times New Roman', Times, serif;">*pour les nouveaux utilisateurs uniquement</p>
+    </div>
+</div>
+<footer>
+<a href="./privat.html" target="_blank">Cookies  </a>  |
+<a href="./privat.html" target="_blank">Privacy policy</a>  |
+<a href="./privat.html" target="_blank">Custom convergence</a>
+</footer>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery.vide.js"></script>
+</body>
+</html>
